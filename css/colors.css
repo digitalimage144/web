@@ -1,0 +1,68 @@
+@charset "utf-8";
+::selection {
+    background: #385185;
+}
+
+::-moz-selection {
+	background:#50c1e9; 
+}
+
+a, .mendi-portfolio-item:hover figure figcaption h6 a:hover, .mendi-portfolio-item:hover figure figcaption p a:hover, .mendi-facts .mendi-facts-icon-holder i, .mendi-list li:before, .mendi-contact address:before, .mendi-contact abbr:before, .mendi-contact abbr a:hover, .mendi-header-with-topbar .header-top ul.header-contact li a:hover, .mendi-blog-item .entry-meta .posted-on time span, .mendi-blog-item .entry-footer p a:hover, .mendi-blog-item .entry-header h4 a:hover, .widget.widget_recent_entries ul li a:hover, .widget ul li a:hover, .widget.widget_categories ul li:hover:before, .paging-navigation .pagination .page-numbers.current, .mendi-portfolio-meta-details li.links a:hover, .mendi-icon-with-title.style3 .mendi-icon-holder i, .mendi-team h6, .mendi-team .mendi-social-links li a:hover i, .mendi-icon-with-title.style5 .mendi-icon-holder i, .mendi-error404 .mendi-error-info i, .mendi_twitter_widget ul.mendi-tweets-list li a {
+    color: #284f85;
+}
+
+.header-top ul li i, .header-top ul li a:hover {
+	color:#FFF; 
+}
+
+.main-nav > ul > li > a:hover, .header-main.sticky .main-nav > ul > li > a:hover, .main-nav > ul > li.current_page_item > a, .header-main.sticky .main-nav > ul > li.current_page_item > a, .main-nav ul.mendi-sub-menu li.current_page_item > a, .mendi-mega-menu-container ul li.current_page_item a {
+    color: inherit;
+}
+
+.mendi-heading h1:before, .mendi-heading h2:before, .mendi-heading h3:before, .mendi-heading h4:before, .mendi-heading h5:before, .mendi-portfolio-details-slideshow-nav a:hover {
+    background: #385185;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], .mendi-icon-with-title.style1 .mendi-icon-holder, .mendi-icon-with-title h6:before, .mendi-button, .mendi-facts:hover .mendi-facts-icon-holder, .mendi-icon-with-title.style2:hover .mendi-icon-holder, .mendi-blog-thumb-style.skin, .widget h2.widget-title:before, .widget.widget_tag_cloud .tagcloud a:hover, .mendi-sidebar-holder .widget .mendi-newsletter input[type="submit"]:hover, .paging-navigation .pagination .page-numbers:hover, blockquote.style1:before, ol.comment-list li.comment .reply a:hover, .mendi-contact-with-large-icon .mendi-contact-icon-holder, .mendi-portfolio-filter ul li a:hover, .mendi-portfolio-filter ul li a.current, .mendi-blog-item .post-thumbnail .post-format, .mendi-tabs-boxed .mendi-tabs-nav li a:hover, .mendi-tabs-boxed .mendi-tabs-nav li a.current, .mendi-icon-with-title.style4:hover .mendi-icon-holder, .mendi-team .mendi-social-links:before, .mendi-facts.style2 h6:before, .mendi-blog-thumb-style2, ol.mendi-planner-list > li h6:before, ol.mendi-planner-list > li:hover:before, .mendi-progress-bar-wrapper .mendi-progress-bar, .mendi-accordion-holder .mendi-accordion-panel.current .mendi-accordion-title .mendi-accordion-arrow, .mendi-accordion-holder .mendi-accordion-panel:hover .mendi-accordion-title .mendi-accordion-arrow, .hvr-shutter-out-horizontal:before, .mendi-icon-with-title.style7 .mendi-icon-holder, .mendi-button.stroke-style:hover, #mendi-vertical-nav .mendi-vertical-nav-dot, #mendi-vertical-nav .mendi-vertical-nav-label, .mendi-top:hover, .mendi-owl-carousel-custom-nav a:hover, #infscr-loading, #portfolio-ajax-loader {
+    background-color: #385185;
+}
+
+.mendi-icon-with-title.style2 .mendi-icon-holder, .widget.widget_tag_cloud .tagcloud a:hover, .mendi-sidebar-holder .widget .mendi-newsletter input[type="submit"], .paging-navigation .pagination .page-numbers:hover, ol.comment-list li.comment .reply a:hover, .mendi-portfolio-filter ul li a:hover, .mendi-portfolio-filter ul li a.current, .mendi-tabs-boxed .mendi-tabs-nav li, ol.mendi-planner-list > li:hover:before, .mendi-accordion-holder .mendi-accordion-panel.current .mendi-accordion-title .mendi-accordion-arrow, .mendi-accordion-holder .mendi-accordion-panel:hover .mendi-accordion-title .mendi-accordion-arrow, .mendi-button.stroke-style:hover, #mendi-vertical-nav a.is-selected .mendi-vertical-nav-dot, .mendi-owl-carousel-custom-nav a:hover, #mendi-masthead.mendi-left-side-header, .mendi-portfolio-details-slideshow-nav a:hover {
+    border-color: #385185;
+}
+
+.widget.mendi-flickr-widget ul li a:before {
+	background-color:rgba(80,193,233,0.7); 
+}
+
+.mendi-blog-thumb-style .post-thumbnail:before {
+	background:rgba(80,193,233,0.6); 
+}
+
+.mendi-blog-thumb-style.dark, footer#mendi-footer .mendi-footer-widgets, button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, .mendi-header-with-topbar .header-top, .mendi-blog-item:hover .post-thumbnail .post-format, .mendi-button.stroke-style.light:hover {
+	background-color:#051f27; 
+}
+
+.mendi-button.stroke-style.light:hover {
+	border-color:#051f27; 
+}
+
+.mendi-icon-with-title.style1:hover .mendi-icon-holder, .mendi-icon-with-title.style3:hover .mendi-icon-holder {
+	background:#051f27; 
+}
+
+.mendi-portfolio-item figure figcaption, .mendi-row-overlay:before {
+	background:rgba(5,31,39,0.8); 
+}
+
+blockquote {
+	background-color:#edf9fd; 
+}
+
+.mendi-testimonial blockquote:before {
+	border-top-color:#edf9fd; 
+}
+
+.mendi-title-overlay:before {
+	background:rgba(22,96,122,0.85); 
+}

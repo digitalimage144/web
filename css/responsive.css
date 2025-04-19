@@ -1,0 +1,1069 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 1230px) and (max-width: 1500px) {
+  .mendi-social-networks li a {
+    padding: 25px 40px 25px 20px;
+  }
+  .mendi-social-networks li::before {
+    right: 15px;
+  }
+  .mendi-social-networks li i {
+    font-size: 40px;
+    width: 50px;
+  }
+  .mendi-blog-thumb-style .entry-header {
+    padding-left: 25px; 
+    padding-top: 25px;
+  }
+  .mendi-blog-thumb-style.alignright .entry-header {
+    padding-right: 25px;
+  }
+   .mendi-blog-thumb-style .post-thumbnail {
+    width: 35%;
+  }
+  .mendi-blog-thumb-style .entry-header {
+    width: 65%;
+  }
+  .mendi-portfolio-item figure figcaption h6 {
+    font-size: 12px;
+  }
+  .mendi-left-pos-header .mendi-container {
+    width: 900px;
+  }
+  .mendi-left-pos-header .mendi-left-side-header .mendi-container {
+    width: 100%;
+  }
+}
+
+
+/* Large desktop */
+
+@media (min-width: 992px) and (max-width: 1230px) {
+
+  /* ui */
+  .mendi-icon-with-title.style2 .mendi-icon-holder {
+    margin-right: 10px;
+  }
+
+  /* Blog */
+  .mendi-blog-thumb-style .entry-header {
+    padding-left: 25px; 
+    padding-top: 25px;
+  }
+  .mendi-blog-thumb-style.alignright .entry-header {
+    padding-right: 25px;
+  }
+  .mendi-blog-thumb-style .post-thumbnail {
+    width: 40%;
+  }
+  .mendi-blog-thumb-style .entry-header {
+    width: 60%;
+  }
+  .mendi-blog-thumb-style .entry-header h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* Social Network */
+  .mendi-social-networks li a {
+    padding: 25px 10px 25px 20px;
+  }
+  .mendi-social-networks li p {
+    font-size: 11px;
+  }
+  .mendi-social-networks li::before {
+    right: 15px;
+  }
+  .mendi-social-networks li i {
+    font-size: 40px;
+    width: 50px;
+  }
+  .mendi-social-networks li:before, .mendi-social-networks li:hover:before {
+    content: "";
+    border: none;
+    background: none;
+  }
+
+  /* Shortcodes */
+  .mendi-button {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .mendi-col-6 .mendi-icon-with-title.style2 .mendi-icon-holder {
+    margin-right: 5px;
+  }
+  .mendi-blog-thumb-style2 .entry-header .mendi-blog-meta h4 {
+    font-size: 12px;
+  }
+
+  .mendi-sidebar-holder.left-sidebar {
+    padding-right: 30px;
+  }
+  .mendi-sidebar-holder.right-sidebar {
+    padding-left: 30px;
+  }
+  .mendi-col-3.mendi-portfolio-item {
+    width: 50%;
+  }
+
+  .mendi-portfolio-details .mendi-social-links li a {
+    margin-left: 5px;
+  }
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 991px) {
+  .mendi-mega-menu-container > ul {
+    padding: 10px;
+  }
+  .mendi-social-networks li {
+    width: 50%;
+  }
+  form .mendi-col-4 {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .mendi-col-3, .mendi-col-4, .mendi-col-6, .mendi-col-1-5 {
+    margin-bottom: 30px;
+  }
+  #mendi-masthead.mendi-left-side-header {
+    width: 200px;
+  }
+  .mendi-left-pos-header {
+    padding-left: 200px;
+  }
+  .mendi-left-pos-header .mendi-left-side-header .mendi-container {
+    width: 100%;
+  }
+  .mendi-left-side-header .mendi-social-links li a {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  #mendi-masthead.mendi-left-side-header .mendi-col-2, #mendi-masthead.mendi-left-side-header .mendi-col-10 {
+    width: 100%;
+  }
+
+  .mendi-left-side-header .main-nav ul li > ul.mendi-sub-menu li a, .mendi-left-side-header .mendi-mega-menu-container > ul li a {
+    font-size: 10px; 
+  }
+  .mendi-left-side-header .main-nav ul li > ul.mendi-sub-menu li a, .mendi-left-side-header .main-nav ul li .mendi-mega-menu-container a {
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  .mendi-left-side-header .main-nav ul li > ul.mendi-sub-menu li:hover a, .mendi-left-side-header .main-nav ul li .mendi-mega-menu-container li:hover a {
+    padding-left: 35px;
+  }
+  .mendi-left-side-header .header-main .main-nav ul li > ul.mendi-sub-menu ul li a, .mendi-left-side-header .mendi-mega-menu-container > ul li.mendi-mega-menu-title ul li a {
+    padding-left: 40px;
+  }
+  .mendi-left-side-header .header-main .main-nav ul li > ul.mendi-sub-menu ul li:hover a, .mendi-left-side-header .main-nav ul li .mendi-mega-menu-container li ul li:hover > a {
+    padding-left: 45px;
+  }
+
+  .mendi-rs-hide {
+    display: none;
+  }
+  .mendi-info-bar.style2 .mendi-col-9 {
+    padding-left: 15px;
+  }
+  .mendi-info-bar.style2 .mendi-col-3 {
+    text-align: left;
+  }
+  .mendi-equal-height .mendi-col-6 {
+    margin-bottom: 0; 
+  }
+  .mendi-portfolio-holder .mendi-portfolio-item {
+    margin-bottom: 0;
+  }
+  .mendi-tabs-boxed .mendi-tabs-nav li a {
+    min-width: 160px;
+  }
+  .mendi-facts.style2 {
+    margin-bottom: 20px;
+  }
+  .mendi-facts .mendi-facts-icon-holder {
+    margin-top: 0;
+  }
+  .mendi-facts {
+    margin-bottom: 20px;
+  }
+  .mendi-icon-with-title.style2 .mendi-icon-holder {
+    margin-bottom: 0;
+  }
+  .mendi-icon-with-title.style2 h6 {
+    width: 100%; 
+    clear: both;
+  }
+  .widget.widget_recent_entries ul li a {
+    clear: both;
+    display: inline-block;
+  }
+  .mendi-sidebar-holder.left-sidebar {
+    padding-right: 30px;
+  }
+  .mendi-sidebar-holder.right-sidebar {
+    padding-left: 30px;
+  }
+  .mendi-col-3.mendi-portfolio-item {
+    width: 50%;
+  }
+  .mendi-portfolio-item figure figcaption h6 {
+    font-size: 12px;
+  }
+  .mendi-portfolio-details .mendi-row [class*="mendi-col-"] {
+    width: 100%;
+  }
+  ol.comment-list li.comment .reply {
+    clear: both;
+    display: inline-block;
+    margin: 10px 0 0;
+  }
+  ol.comment-list li.comment .comment-metadata {
+    float: none;
+  }
+  .header-top .mendi-social-links {
+    margin-left: 15px;
+  }
+  .mendi-info-bar.style2, .mendi-info-bar.style2 .mendi-col-3 {
+    text-align: center;
+  }
+  .mendi-info-bar.style2 .mendi-col-3 {
+    width: 100%;
+  }
+  .mendi-blog-thumb-style .entry-header {
+    padding-left: 25px; 
+    padding-top: 25px;
+  }
+  .mendi-blog-thumb-style.alignright .entry-header {
+    padding-right: 25px;
+  }
+  .mendi-blog-thumb-style .post-thumbnail {
+    width: 45%;
+  }
+  .mendi-blog-thumb-style .entry-header {
+    width: 55%;
+  }
+  .mendi-blog-thumb-style .entry-header h4 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .mendi-blog-thumb-style .entry-format {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  /* Header */
+  #mendi-responsive-menu-trigger {
+    opacity: 1;
+    pointer-events: auto;
+    top: 0;
+    margin-top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .mendi-std-header #mendi-responsive-menu-trigger {
+    margin-top: 1px;
+  }
+  
+  .main-nav > ul {
+    opacity: 0;
+    display: none;
+    clear: both;
+    width: 100%;
+  }
+  .main-nav > ul.show {
+    opacity: 1;
+    display: block;
+  }
+  .main-nav > ul li {
+    clear: both;
+    width: 100%;
+  }
+  .header-main .mendi-col-10 {
+    width: 100%;
+  }
+  .transparent-header .main-nav > ul > li > a, .transparent-header .header-main.sticky .main-nav > ul > li > a {
+    line-height: 30px;
+  }
+  #mendi-masthead .mendi-col-2 {
+    width: 100%;
+    margin-bottom: 0;
+    position: inherit;
+  }
+  #mendi-masthead .mendi-col-10 {
+    width: 100%;
+    margin-bottom: 0;
+    position: inherit;
+  }
+  header#mendi-masthead {
+    background: #ffffff;
+    padding: 0;
+  }
+  .header-top {
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    margin: 0 0 15px;
+    text-align: center;
+  }
+  .header-top ul.header-contact {
+    float: left;
+    text-align: center;
+    width: 100%;
+  }
+  .header-top ul.header-contact li {
+    display: inline-block;
+    text-align: center;
+  }
+  #mendi-masthead #logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 25%;
+    top: 5px;
+    text-align: center;
+  }
+  .logo-light, .transparent-header .logo-light {
+    display: none;
+  }
+  .logo-dark, .header-main.sticky .logo-dark, .transparent-header .logo-dark {
+    display: inline-block;
+  }
+  .header-top ul.header-contact li a, .header-top ul.header-contact li, .mendi-search-container .mendi-search:before, .main-nav ul li .mendi-mega-menu-container > ul li.mendi-mega-menu-title > a {
+    color: #333333;
+  }
+  .header-main {
+    min-height: 53px;
+  }
+  .header-main .mendi-container {
+    width: 100%;
+  }
+  #logo a.mendi-standard-logo { 
+    display: none !important; 
+  }
+  #logo a.mendi-standard-logo {
+    display: block !important; 
+  }
+ /* #mendi-masthead .sticky #logo {
+    top: 12px;
+  }*/
+  .transparent-header .header-main.sticky .mendi-search-container .mendi-search:before {
+    line-height: 52px;
+  }
+  .mendi-std-header .mendi-search-container .mendi-search::before, .transparent-header .header-main.sticky .mendi-search-container .mendi-search:before, .header-main.sticky .mendi-search-container .mendi-search:before {
+    line-height: 42px;
+  }  
+  
+  .main-nav {
+    float: left;    
+  }
+  .main-nav > ul {
+    margin: 40px 0 0;
+  }
+  .main-nav ul li a {
+    color: #333333;
+    padding: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    width: 100%;
+    padding: 7px 24px;
+  }
+  .transparent-header .main-nav > ul > li > a {
+    color: #333333;
+  }
+  .mendi-std-header .main-nav ul li a, .mendi-std-header .header-main.sticky .main-nav > ul > li > a {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    line-height: normal;
+  }
+  .mendi-search-container {
+    margin-right: 20px;
+  }
+  .header-main .main-nav ul li > ul.mendi-sub-menu, .mendi-mega-menu-container {
+    position: inherit;
+    width: 100%;
+    top: 0 !important;
+    box-shadow: none;
+    left: 0;
+  } 
+  .header-main .main-nav ul li > ul.mendi-sub-menu ul {
+    left: 0;
+    position: inherit;
+    clear: both;
+  }
+  .header-main .main-nav ul li > ul.mendi-sub-menu ul li a {
+    padding-left: 60px;
+  }
+  .header-main .main-nav ul li > ul.mendi-sub-menu ul ul li a {
+    padding-left: 80px;
+  }
+  .main-nav ul li > ul.mendi-sub-menu li a {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .header-main .main-nav ul li > ul.mendi-sub-menu ul li:hover a, .main-nav ul li .mendi-mega-menu-container li ul li:hover > a {
+    padding-left: 65px;
+  }
+  .header-main .main-nav ul li > ul.mendi-sub-menu ul ul li:hover a {
+    padding-left: 85px;
+  }
+ .main-nav ul li > ul.mendi-sub-menu li a:hover, .main-nav ul li .mendi-mega-menu-container li:hover > a {
+    padding-left: 45px;
+  }
+  .main-nav ul li > ul.mendi-sub-menu li:last-child a {
+    padding-bottom: 10px;
+  }
+  .mendi-mega-menu-container, .mendi-mega-menu-container > ul {
+    width: 100% !important;
+  }
+  .mendi-mega-menu-container > ul li.mendi-mega-menu-title > a {
+    margin: 0;
+  }
+  .mendi-mega-menu-container > ul {
+    padding: 0;
+  }
+  .main-nav ul li .mendi-mega-menu-container a {
+    padding: 13px 40px; 
+    color: rgba(0, 0, 0, 0.4);
+  }
+  .mendi-mega-menu-container > ul li.mendi-mega-menu-title ul li a {
+    padding-left: 60px;
+  }
+
+  .mendi-has-sub-menu > a:before {
+    content: "\f105";
+  }
+  .mendi-has-sub-menu:hover > a:before {
+    content: "\f107";
+  }
+  .transparent-header, .header-main.sticky {
+    position: inherit;
+  }
+
+  .mendi-search-form, .is-sticky .mendi-search-form, .transparent-header .mendi-search-container .mendi-search-form, .transparent-header .sticky .mendi-search-container .mendi-search-form, .sticky .mendi-search-container .mendi-search-form {
+    top: 52px;
+  }
+  .mendi-search-container {
+    margin-right: 30px;
+  }
+
+
+  .mendi-std-header #logo a {
+    display: inline-block;
+  }
+  .mendi-std-header #logo a, .mendi-std-header .header-main.sticky #logo a {
+    padding: 0;
+    line-height: normal;
+    height: auto;
+  }
+  .header-top .mendi-container {
+    width: 100%;
+  }
+  .mendi-std-header .header-top {
+    padding: 0;
+  }
+  .mendi-header-with-topbar .header-top .header-contact {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .mendi-std-header .header-top ul.header-contact li {
+    padding: 10px;
+  }
+  .mendi-std-header .header-top .mendi-social-links {
+    margin-left: 10px;
+  }
+  .mendi-header-with-topbar .header-top .header-contact, .header-top .social-links-container {
+    width: 100%;
+    text-align: center;
+    float: left;
+  }
+  .mendi-header-with-topbar .header-top ul.header-contact li, .header-top .social-links-container p, .mendi-std-header .header-top .mendi-social-links, .header-top .mendi-social-links li {
+    float: none;
+    display: inline-block;
+  }
+  .header-top .mendi-social-links li a {
+    margin-right: -3px;
+  }
+  .header-top .mendi-container {
+    padding: 0;
+  }
+  .mendi-header-with-topbar .header-top ul.header-contact li, .mendi-header-with-topbar .header-top ul.header-contact li:last-child {
+    border: 0px;
+  }
+
+  .mendi-left-side-header .mendi-social-links {
+    float: right;
+    margin: 10px 0 0;
+    position: absolute;
+    right: 10px;
+  }
+  .mendi-left-side-header .mendi-social-links li a {
+    margin: 0 5px;
+  }
+  .mendi-left-side-header .main-nav > ul > li > a {
+    line-height: 30px;
+  }
+  .mendi-left-side-header #mendi-responsive-menu-trigger {
+    line-height: 53px;
+  }
+  
+
+  .mendi-title-holder {
+    padding: 40px 0;
+  }
+
+
+  .mendi-row .mendi-position-bottom-right, .mendi-row .mendi-position-bottom-left {
+    position: inherit;
+  }
+  .mendi-portfolio-holder .mendi-portfolio-item {
+    margin-bottom: 0;
+  }
+  .mendi-facts.style2 {
+    margin-bottom: 20px;
+  }
+  .mendi-facts .mendi-facts-icon-holder {
+    margin-top: 0;
+  }
+  .mendi-facts {
+    margin-bottom: 20px;
+  }
+  .mendi-position-bottom-right {
+    margin-bottom: 0 !important;
+  }
+  .mendi-row.mendi-no-space-cols [class*="mendi-col-"] {
+    margin-bottom: 0;
+  }
+  .mendi-social-networks li {
+    width: 100%;
+  }
+  .mendi-portfolio-filter ul li a {
+    margin-bottom: 20px;
+  }
+  .mendi-info-bar.style3 h3 {
+    margin: 0 0 30px;
+  }
+  .mendi-copyrights {
+    text-align: center;
+  }
+  .mendi-copyrights p, .mendi-copyrights .mendi-social-links {
+    float: none;
+    display: inline-block;
+  }
+  .mendi-copyrights .mendi-social-links {
+    margin-top: 20px;
+  }
+  .mendi-social-links li a{
+    margin: 0 10px;
+  }
+  .mendi-info-bar.style2 .mendi-col-9 {
+    padding-left: 0;
+  }
+  .mendi-info-bar.style2 .mendi-col-3 {
+    text-align: left;
+  }
+  .mendi-tabs-boxed .mendi-tabs-nav li {
+    margin-bottom: 20px;
+  }
+  .mendi-info-bar.style2, .mendi-info-bar.style2 .mendi-col-3 {
+    text-align: center;
+  }
+  .mendi-portfolio-item figure figcaption h6 {
+    font-size: 12px;
+  }
+  .mendi-tabs-boxed .mendi-tabs-nav li:first-child {
+    border-radius: 3px;
+  }
+  .mendi-icon-with-title.style4, .mendi-icon-with-title.style5 {
+    padding: 0;
+    text-align: center;
+  }
+  .mendi-icon-with-title.style4 .mendi-icon-holder, .mendi-icon-with-title.style5 .mendi-icon-holder {
+    margin-bottom: 25px;
+    position: inherit;
+    display: inline-block;
+  }
+  .mendi-icon-with-title h6:before, .mendi-icon-with-title.left h6:before {
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+  .mendi-tabs-boxed .mendi-tabs-nav li a {
+    min-width: 160px;
+  }
+  .mendi-testimnonial-author, .mendi-testimnonial-author .author-image, .mendi-testimnonial-meta, .mendi-testimnonial-rating, .mendi-icon-with-title.style6, .mendi-icon-with-title.style6 .mendi-icon-holder {
+    text-align: center;
+    float: none;
+    display: inline-block;
+    margin: 0;
+    clear: both;
+    width: 100%;
+  }
+  .mendi-icon-with-title.style6 h6 {
+    float: none;
+  }
+  .mendi-icon-with-title.style6 .mendi-icon-holder {
+    margin-bottom: 20px;
+  }
+  .mendi-testimonial blockquote {
+    margin-bottom: 20px;
+  }
+  .mendi-testimnonial-author .author-image, .mendi-testimnonial-meta {
+    margin-bottom: 10px;
+  }
+  .mendi-testimonial blockquote::before {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+  }
+  ol.mendi-planner-list > li {
+    padding-left: 60px;
+  }
+  .mendi-accordion-title .mendi-accordion-arrow {
+    margin-right: 10px;
+  }
+  .mendi-accordion-title h6 {
+    font-size: 12px;
+  }
+  ol.mendi-planner-list > li:before {
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+    font-size: 16px;
+  }
+  ol.mendi-planner-list li:after {
+    left: 9px;
+    bottom: 10px;
+  }
+  .mendi-progress-bar-wrapper h6 {
+    font-size: 11px;
+    top: -45px;
+  }
+  .mendi-progress-bar-wrapper {
+    margin-top: 45px;
+  }
+  .mendi-icon-with-title.style4.right {
+    padding: 0;
+  }
+  .mendi-icon-with-title.style7 {
+    padding: 20px 20px 20px 65px;
+  }
+  .mendi-icon-with-title.style7 .mendi-icon-holder i {
+    font-size: 20px;
+    line-height: 60px;
+  }
+  .mendi-icon-with-title.style7 .mendi-icon-holder {
+    width: 60px;
+    height: 60px;
+    left: -30px;
+  }
+  .mendi-icon-with-title.style7 .mendi-icon-holder:before {
+    width: 80px;
+    height: 80px;
+  }
+  .mendi-button {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  form .mendi-row .mendi-col-4 {
+    margin-bottom: 0;
+  }
+  .mendi-contact-with-large-icon p {
+    font-size: 16px;
+  }
+  .mendi-contact-form {
+    width: 100%;
+  }
+  .mendi-contact-with-large-icon .mendi-contact-icon-holder {
+    width: 50px;
+    height: 50px;
+    border-width: 5px;
+  }
+  .mendi-contact-with-large-icon .mendi-contact-icon-holder i {
+    font-size: 16px;
+    line-height: 40px;
+  }
+  .mendi-contact-with-large-icon {
+    padding-left: 65px;
+  }
+  .mendi-contact-with-large-icon p {
+    margin-top: 5px;
+  }
+  .mendi-error404 .mendi-error-info {
+    font-size: 110px;
+    line-height: 50px;
+  }
+  .mendi-error404 .mendi-error-info span {
+    line-height: 30px;
+  }
+  .mendi-error404 .search-form {
+    max-width: 200px;
+    min-width: 200px;
+  }
+  .mendi-error404 .mendi-heading, .mendi-error404 .search-form {
+    display: none;
+  }
+  /* Sidebar */
+  .mendi-sidebar-holder {
+    padding: 0;
+    width: 100%;
+  }
+  .mendi-sidebar-holder.left-sidebar, .mendi-sidebar-holder.right-sidebar {
+    padding: 50px 0 0;
+  }
+  .mendi-content-holder {
+    width: 100%;
+  }
+  .widget.widget_categories ul li a {
+    padding-right: 10px;
+  }
+  /* Portfolio */
+  .mendi-portfolio-holder .mendi-portfolio-item {
+    padding-bottom: 0;
+  }
+  .portfolio-social-share .mendi-social-links li a {
+    margin: 0 5px;
+  }
+  .mendi-portfolio-meta-details li span {
+    width: 100%;
+  }
+  /* Blog */
+  .mendi-blog-item {
+    padding-left: 115px;
+  }
+  .mendi-blog-item .post-thumbnail .post-format {
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+  }
+  .mendi-blog-item .post-thumbnail .post-format i {
+    font-size: 18px;
+  }
+
+  ol.comment-list li.comment .reply {
+    clear: both;
+    display: inline-block;
+    margin: 10px 0 0;
+  }
+  ol.comment-list li.comment .comment-metadata {
+    float: none;
+  }
+  ol.comment-list li.comment ol {
+    padding-left: 30px;
+  }
+
+  blockquote.style1:before {
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    left: -20px;
+    font-size: 14px;
+  }
+  blockquote.style1 {
+    padding-left: 45px;
+    font-size: 14px;
+  }
+  .mendi-blog-thumb-style .entry-header {
+    padding-left: 25px; 
+    padding-top: 25px;
+  }
+  .mendi-blog-thumb-style.alignright .entry-header {
+    padding-right: 25px;
+  }
+  .mendi-blog-thumb-style .post-thumbnail {
+    width: 45%;
+  }
+  .mendi-blog-thumb-style .entry-header {
+    width: 55%;
+  }
+  
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .mendi-blog-thumb-style .entry-header h4 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .mendi-blog-thumb-style .entry-format {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 479px) {
+  .header-main .mendi-container {
+    padding: 0;
+  }
+  #mendi-masthead .mendi-col-10 {
+    padding: 0;
+  }
+  .mendi-left-side-header .mendi-social-links {
+    display: none;
+  }
+  .mendi-social-networks li {
+    width: 100%;
+  }
+  ol.comment-list li.comment .comment-metadata, ol.comment-list li.comment .comment-author a {
+    clear: both;
+  }
+  .mendi-blog-thumb-style .entry-header h4 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .mendi-blog-thumb-style .entry-format {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 340px) { 
+  #mendi-masthead #logo {
+    width: 35%;
+  }
+  .mendi-std-header .header-top ul.header-contact li {
+    padding: 5px;
+  }
+  .mendi-accordion-title h6 {
+    width: 75%;
+  }
+  .mendi-social-networks li a {
+    padding: 25px 70px 25px 20px;
+  }
+  .mendi-social-networks li i {
+    font-size: 24px;
+    width: 30px;
+  }
+  .mendi-error404 .mendi-error-info {
+    font-size: 70px;
+  }
+  .mendi-blog-item {
+    padding-left: 0;
+  }
+  .mendi-blog-item .entry-meta {
+    margin: 0 0 30px;
+    position: inherit;
+    text-align: center;
+    width: 100%;
+  }
+  .mendi-blog-item .post-thumbnail .post-format {
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+  }
+  ol.comment-list li.comment .comment-metadata {
+    clear: both;
+  }
+  .mendi-portfolio-item figure figcaption h6 {
+    padding-top: 42px;
+  }
+  .mendi-blog-thumb-style .post-thumbnail {
+    width: 100%;
+  }
+  .mendi-blog-thumb-style .entry-header {
+    width: 100%;
+  }
+  .mendi-blog-thumb-style .entry-header h4 {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+  .mendi-blog-thumb-style .entry-format {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+  
+}
+@media (max-width: 240px) {  
+  .mendi-portfolio-item figure figcaption h6 {
+    padding-top: 42px;
+  }
+  .header-top .mendi-social-links li a {
+    width: 40px;
+  }
+  .mendi-std-header .header-top .mendi-social-links {
+    margin-left: 0;
+  }
+  
+}
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1230px) {
+  .mendi-container, .mendi-mega-menu-container {
+    width: 940px;
+  }
+  .mendi-left-pos-header .mendi-container {
+    width: 700px;
+  }
+  .mendi-left-pos-header .mendi-left-side-header .mendi-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .mendi-container, .mendi-mega-menu-container {
+    width: 710px;
+  }
+  .mendi-left-pos-header .mendi-container {
+    width: 500px;
+  }
+ .mendi-col-1, .mendi-col-2, .mendi-col-3, .mendi-col-4, .mendi-col-5, .mendi-col-6, .mendi-col-1-5, .mendi-col-2-5, .mendi-col-3-5, .mendi-col-4-5 {
+    width:50%;
+  }
+  .mendi-col-7, .mendi-col-8, .mendi-col-9, .mendi-col-10, .mendi-col-11, .mendi-col-12 {
+    width: 100%;
+    margin-bottom: 30px;
+  } 
+  #mendi-masthead .mendi-col-2 {
+    width: 16.6667%;
+    margin-bottom: 0;
+  }
+  #mendi-masthead .mendi-col-10 {
+    width: 83.3333%;
+    margin-bottom: 0;
+  }
+  .mendi-no-space-cols .no-space {
+    margin-bottom: 0;
+  }
+
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .mendi-col-1, .mendi-col-2, .mendi-col-3, .mendi-col-4, .mendi-col-5, .mendi-col-6, .mendi-col-7, .mendi-col-8, .mendi-col-9, .mendi-col-10, .mendi-col-11, .mendi-col-12, .mendi-col-1-5, .mendi-col-2-5, .mendi-col-3-5, .mendi-col-4-5 {
+    width: 100%;
+    /*padding: 0;*/
+  }
+  .mendi-row [class*="mendi-col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .mendi-container { 
+    width: 400px; 
+  }
+}
+@media (max-width: 479px) { 
+  .mendi-container { 
+    width: 100%; 
+    padding: 0 30px;
+  }
+  /*.mendi-row{
+    margin: 0;
+  }*/
+  h1 {
+    font-size:26px;
+  }
+
+  h2 {
+    font-size:24px;
+  }
+
+  h3 {
+    font-size:22px;
+  }
+
+  h4 {
+    font-size:18px;
+  }
+
+  h5 {
+    font-size:16px;
+  }
+
+  h6 {
+    font-size:14px;
+  }
+}
+
+
+/* ----------------------------------------------------------------
+  Retina CSS
+-----------------------------------------------------------------*/
+#logo a.mendi-retina-logo, #logo a.mendi-retina-logo img { 
+    display: none; 
+}
+.mendi-left-side-header #logo  a.mendi-retina-logo {
+	display: none;
+}
+
+@media (max-width: 767px) {
+  #logo a.mendi-standard-logo, #logo a.mendi-standard-logo img { 
+    display: none; 
+  }
+  #logo a.mendi-retina-logo, #logo a.mendi-retina-logo img { 
+    display: block; 
+  } 
+  #logo a.mendi-retina-logo img.logo-light, .mendi-left-side-header #logo  a.mendi-retina-logo img.logo-light { 
+  	display: none !important;  	
+  }
+  .mendi-left-side-header #logo  a.mendi-retina-logo { 
+    display: block !important;
+  } 
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+  #logo a.mendi-standard-logo, #logo a.mendi-standard-logo img { 
+    display: none; 
+  }
+  #logo a.mendi-retina-logo, #logo a.mendi-retina-logo img { 
+    display: block; 
+  } 
+  #logo a.mendi-retina-logo img.logo-light, .mendi-left-side-header #logo  a.mendi-retina-logo img.logo-light { 
+  	display: none !important;  	
+  }
+  .mendi-left-side-header #logo  a.mendi-retina-logo { 
+    display: block !important;
+  } 
+  ol.mendi-planner-list li:after {
+    background: url(../images/planner-down-arrow.png) no-repeat;
+    background-size: 23px 25px;
+  }
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 991px),
+only screen and (   min--moz-device-pixel-ratio: 2) and (max-width: 991px),
+only screen and (     -o-min-device-pixel-ratio: 2/1) and (max-width: 991px),
+only screen and (        min-device-pixel-ratio: 2) and (max-width: 991px),
+only screen and (                min-resolution: 192dpi) and (max-width: 991px),
+only screen and (                min-resolution: 2dppx) and (max-width: 991px) {
+  #logo a.mendi-standard-logo, #logo a.mendi-standard-logo img { 
+    display: none; 
+  }
+  #logo a.mendi-retina-logo, #logo a.mendi-retina-logo img { 
+    display: block; 
+  } 
+  #logo a.mendi-retina-logo img.logo-light, .mendi-left-side-header #logo  a.mendi-retina-logo img.logo-light { 
+  	display: none !important;  	
+  }
+  .mendi-left-side-header #logo  a.mendi-retina-logo { 
+    display: block !important;
+  } 
+}
